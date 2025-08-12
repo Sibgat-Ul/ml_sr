@@ -33,7 +33,7 @@ class FlightInput(BaseModel):
     stops: str
     arrival_time: str
     destination_city: str
-    flight_class: str  # renamed to avoid conflict with Python keyword
+    flight_class: str
     duration: float
     days_left: int
 
